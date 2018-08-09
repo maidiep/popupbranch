@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Instagram from "./components/Instagram";
+import Products from "./components/Products";
 
 // firebase
 firebase.initializeApp({
@@ -41,6 +42,7 @@ class App extends Component {
         <Navbar />
         <Intro />
         <Instagram />
+        <Products />
         {/* {this.state.isSignedIn ? (
           <span>
             <div>Signed In!</div>

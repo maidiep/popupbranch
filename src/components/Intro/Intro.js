@@ -5,7 +5,7 @@ const Intro = () => (
      <div className="page-section clearfix">
         <div className="container">
             <div className="intro">
-                <img className="img-fluid intro-img mb-3 mb-lg-0 rounded" src="assets/img/photo-1510885428963-8362ed9167ce.jpeg" alt="flowers" />
+                <img className="img-fluid intro-img mb-3 mb-lg-0 rounded" src="assets/img/intro.jpeg" alt="flowers" />
                 <div className="intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center">
                     <h2 className="section-heading mb-4">
                         <span className="section-heading-upper">ABOUT</span>
