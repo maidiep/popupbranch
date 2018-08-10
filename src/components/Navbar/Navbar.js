@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Modal from "../Modal";
 
 let orangeColor = [235, 191, 74];
 let blackColor = [0, 0, 0, 0.85];
@@ -87,12 +88,15 @@ const Navbar = () => (
             href="{#}"
             data-bs-hover-animate="pulse"
             style={cStyle}
+            data-toggle="modal"
+            data-target="#registerModal"
           >
             REGISTER / SIGN IN
           </a>
         </span>
       </div>
     </div>
+    <Modal />
   </nav>
 );
 
