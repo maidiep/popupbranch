@@ -32,7 +32,7 @@ class Modal extends Component {
 
   render () {
     return (
-      <div className="modal" id="registerModal">
+      <div className="modal fade" id="registerModal">
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
