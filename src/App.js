@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./index.css";
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import Navbar from "./components/Navbar";
